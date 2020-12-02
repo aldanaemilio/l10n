@@ -6,7 +6,7 @@ El formato PAK (".pak") es utilizado, por algunas aplicaciones, para contener el
 
 En GitHub el proyecto [chrome-pak-customizer](https://github.com/myfreeer/chrome-pak-customizer/releases) ofrece el programa pak_mingw64.exe (o pak_ming32.exe) que permite el desempaquetado y empaquetado de los archivos ".pak".
 
-El resultado del desempaquetado de un fichero PAK es un conjunto considerable de ficheros. En realidad, tantos como mensajes de texto contenga la aplicación. Por ejemplo, en la versión que tengo actualmente instalada de Chrome (2/12/2020), el desempaquetado de la versión inglesa de USA ("en-US.pak"), genera 4946 ficheros que, como hemos indicado, cada uno contiene un mensaje concreto de la interfaz de usuario de Chrome.
+El resultado del desempaquetado de un fichero PAK es un conjunto considerable de ficheros. En realidad, tantos como mensajes de texto contenga la aplicación. Por ejemplo, en la versión que tengo actualmente instalada de Chrome (2/12/2020), el desempaquetado de la versión inglesa de EE.UU. ("en-US.pak"), genera 4946 ficheros que, como hemos indicado, cada uno contiene un mensaje concreto de la interfaz de usuario de Chrome.
 
 Valiéndonos de este programa de empaquetado/desempaquetado de ficgheros PAK (pak_mingw64.exe) hemos creado dos pequeños scripts, con fines únicamente docentes, con el objetivo de aumentar el abanico de prácticas a realizar con nuestros ***estudiantes del Grado de Traducción e Interpretación de la USAL***:
 1. ***pak2csv.py*** (que también ofrecemos en versión ejecutable de 64 bits para Windows, ***pak2csv.exe***) que reúne todos los archivos desempaquetados por pak_mingw64.exe en un solo fichero CSV (".csv"), que, por tanto, contendrá todos los mensajes de la aplicación.
