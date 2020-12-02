@@ -3,7 +3,7 @@
 
 El formato PAK (".pak") es utilizado por algunas aplicaciones para contener el texto, en las diferentes lenguas a las que está traducido, de la interfaz del usuario. Por ejemplo, es el caso, en la actualidad, del navegador Chrome.
 
-En GitHub el proyecto [chrome-pak-customizer](https://github.com/myfreeer/chrome-pak-customizer/releases)ofrece el programa pak_mingw64.exe (o pak_ming32.exe) que permite el desempaquetado y empaquetado de los archivos ".pak".
+En GitHub el proyecto [chrome-pak-customizer](https://github.com/myfreeer/chrome-pak-customizer/releases) ofrece el programa pak_mingw64.exe (o pak_ming32.exe) que permite el desempaquetado y empaquetado de los archivos ".pak".
 
 El resultado del desempaquetado de un fichero PAK es un conjunto considerable de ficheros. En realidad, tantos como mensajes de texto contenga la aplicación. Por ejemplo, en la versión que tengo actualmente instalada de Chrome (2/12/2020), el desempaquetado de la versión inglesa de USA ("en-US.pak"), genera 4946 ficheros que, como hemos indicado, cada uno contiene un mensaje concreto de la interfaz de usuario de Chrome.
 
