@@ -15,6 +15,3 @@ Valiéndonos de este programa de empaquetado/desempaquetado de ficgheros PAK (pa
 En el proceso de *Localización* de una aplicación cuyos mensajes se distribuyan en formato PAK, se tratará, lógicamente, de enviar el CSV generado con **pak2csv.exe** a una herramienta de TAO para, tras la traducción a una nueva lengua, convertir el nuevo CSV en un nuevo fichero PAK, con la versión en destino usando, esta vez, **csv2pak.exe**
 
 Se distribuye en este proyecto también el archivo **okf_table@csv2pak.fprm**, un filtro CSV para [Rainbow -Okapi Applications-](https://bintray.com/okapi/Distribution) adaptado para el CSV generado con nuestro script. Este filtro captura como etiquetas internas las diferentes partes del texto que no debe de traducirse de los diferentes mensajes de la aplicación.
-
-
-
