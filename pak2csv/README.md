@@ -1,7 +1,8 @@
 # Localización de archivos PAK ".pak" 
+
 ## Práctica de Localización en el Grado de Traducción e Interpretación de la USAL
 
-El formato PAK (".pak") es utilizado por algunas aplicaciones para contener el texto, en las diferentes lenguas a las que está traducido, de la interfaz del usuario. Por ejemplo, es el caso, en la actualidad, del navegador Chrome.
+El formato PAK (".pak") es utilizado, por algunas aplicaciones, para contener el texto de la interfaz de usuario de las diferentes lenguas a las que se encuentra localizado. Por tanto, es otro formato usado como arquitectura de internacionalización. Por ejemplo, es el caso, en la actualidad, del navegador Chrome.
 
 En GitHub el proyecto [chrome-pak-customizer](https://github.com/myfreeer/chrome-pak-customizer/releases) ofrece el programa pak_mingw64.exe (o pak_ming32.exe) que permite el desempaquetado y empaquetado de los archivos ".pak".
 
@@ -47,3 +48,4 @@ csv2pak -i en-US.pak.csv -c en-US@csv2pak.ini
 ```
 
 La ejecución de este script devolverá el fichero en formato PAK en-US.pak.csv.pak.
+
