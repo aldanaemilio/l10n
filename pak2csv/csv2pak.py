@@ -143,6 +143,7 @@ def empaqueta(mingw,carpetapak,newpak):
 			"\r¡Proceso finalizado con éxito!")
 	except:
 		error_y_sal("!Error en el proceso de creación del fichero .pak en destino!")
+    
 
 
 
