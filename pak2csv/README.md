@@ -9,7 +9,7 @@ En GitHub el proyecto [chrome-pak-customizer](https://github.com/myfreeer/chrome
 El resultado del desempaquetado de un fichero PAK es un conjunto considerable de ficheros. En realidad, tantos como mensajes de texto contenga la aplicación. Por ejemplo, en la versión que tengo actualmente instalada de Chrome (2/12/2020), el desempaquetado de la versión inglesa de EE.UU. ("en-US.pak"), genera 4946 ficheros que, como hemos indicado, cada uno contiene un mensaje concreto de la interfaz de usuario de Chrome.
 
 Valiéndonos de este programa de empaquetado/desempaquetado de ficheros PAK (pak_mingw64.exe) hemos creado dos pequeños scripts, con fines únicamente docentes, con el objetivo de aumentar el abanico de prácticas a realizar con nuestros ***estudiantes del Grado de Traducción e Interpretación de la USAL***:
-1. ***pak2csv.py*** (que también ofrecemos en versión ejecutable de 64 bits para Windows, ***pak2csv.exe***) que reúne todos los archivos desempaquetados por pak_mingw64.exe en un solo fichero CSV (".csv"), que, por tanto, contendrá todos los mensajes de la aplicación.
+1. ***pak2csv.py*** (que también ofrecemos en versión ejecutable de 64 bits para Windows, ***pak2csv.exe***) que reúne todos los archivos desempaquetados por pak_mingw64.exe en un solo fichero CSV (".csv") y que, por tanto, contendrá todos los mensajes de la aplicación.
 
 2. ***csv2pak.py*** (y la versión ejecutable para Windows de 64 bits ***csv2pak.exe***) que recoje el fichero CSV  y genera el fichero PAK. 
 
@@ -49,3 +49,7 @@ csv2pak -i en-US.pak.csv -c en-US@csv2pak.ini
 
 La ejecución de este script devolverá el fichero en formato PAK en-US.pak.csv.pak.
 
+Mostramos en estas dos imágenes del resultado de la conversión a CSV del fichero en-US.pak con ***pack2csv.exe***, la pseudo-traducción con ***Rainbow***  (*Utilities >> Text Rewriting* y en *Text Modification* eligiendo la opción *Replace selected ASCII charaters with Extended Latin Characters*) usando el filtro **okf_table@csv2pak.fprm** que facilitamos y, por último de la vuelta a generar el nuevo PAK pseudo-traducido con ***csv2pak.exe***.
+
+![Chrome con opciones activadas](./png/ChromePseudoTraducido_1.png)
+![Configuración de Chrome](.(png/ChromePseudoTraducido_2.png)
