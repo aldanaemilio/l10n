@@ -52,4 +52,4 @@ La ejecución de este script devolverá el fichero en formato PAK en-US.pak.csv.
 Mostramos en estas dos imágenes del resultado de la conversión a CSV del fichero en-US.pak con ***pack2csv.exe***, la pseudo-traducción con ***Rainbow***  (*Utilities >> Text Rewriting* y en *Text Modification* eligiendo la opción *Replace selected ASCII charaters with Extended Latin Characters*) usando el filtro **okf_table@csv2pak.fprm** que facilitamos y, por último de la vuelta a generar el nuevo PAK pseudo-traducido con ***csv2pak.exe***.
 
 ![Chrome con opciones activadas](./png/ChromePseudoTraducido_1.png)
-![Configuración de Chrome](.(png/ChromePseudoTraducido_2.png)
+![Configuración de Chrome](./png/ChromePseudoTraducido_2.png)
